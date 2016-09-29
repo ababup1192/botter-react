@@ -34,8 +34,8 @@ class App extends React.Component {
             <input type="text"
                 value={this.state.text}
                 placeholder="ツイート"
-                onKeyDown={(e) => this.handleKeyDown(e) }
                 onChange={(e) => this.handleChange(e) }
+                onKeyDown={(e) => this.handleKeyDown(e) }
                 />
             <ul>{tweets}</ul>
         </div>;
